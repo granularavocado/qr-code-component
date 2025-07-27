@@ -2,3 +2,35 @@
     min-height: 100vh;
     background-color: var(--slate-300);
 }
+
+.main-content-wrapper {
+    width: 320px;
+    padding: 16px 16px 40px;
+    background-color:  var(--white);
+    border-radius: var(--radius);
+}
+
+.qr-code-wrapper {
+    width: 288px;
+}
+
+.qr-code-image {
+    border-radius: var(--radius);
+}
+
+.text-wrapper {
+    text-align: center;
+    padding: 0 16px
+}
+
+.text-heading {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 120%;
+    color: var(--slate-900);
+}
+
+.text-paragraph {
+    font-size: 1.5rem;
+    color: var(--slate-500);
+}
