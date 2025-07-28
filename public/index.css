@@ -1,6 +1,13 @@
 .main-wrapper {
     min-height: 100vh;
+    min-width: 100vw;
     background-color: var(--slate-300);
+
+    @media (min-width: 321px) {
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+    }
 }
 
 .main-content-wrapper {
